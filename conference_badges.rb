@@ -18,6 +18,6 @@ end
 
 def printer(array)
   batch_badge_creator(array).map do |message|
-    puts messge
+    puts message
   end
 end
