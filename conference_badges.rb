@@ -10,7 +10,7 @@ end
 
 def assign_rooms(speaker)
   array = []
-  speaker.each_with_index do |name, index|
+  speaker.each_with_index(1) do |name, index|
   array << "Hello, #{name}! You'll be assigned to room #{index}"
   end
   array
