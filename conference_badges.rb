@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(array)
   array.map do |name|
-    puts "Hello, my name is #{name}."
+    "Hello, my name is #{name}."
   end 
 end
 
@@ -17,6 +17,7 @@ def assign_rooms(speaker)
 end 
 
 def printer(array)
-  batch_badge_creator(array)
-  assign_rooms(array)
+  batch_badge_creator(array).map do |message|
+    puts messge
+  end
 end
